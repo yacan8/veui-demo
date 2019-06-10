@@ -1,0 +1,29 @@
+{
+  "name": "veui-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-veui": "^1.0.0-alpha.26",
+    "veui-loader": "^1.0.0-alpha.26",
+    "veui-theme-one": "^1.0.0-alpha.26",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0",
+    "vue-directive-normalizer": "^0.0.1",
+    "vue-property-decorator": "^8.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
